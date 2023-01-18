@@ -1,0 +1,17 @@
+.user-form{
+    position: absolute;
+    margin: 20vh 90vh;
+    background: linear-gradient(to left, #22ee4a 40%,#665eff );
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+#login{
+  display: block;
+}
+
+#registration{
+  display: none;
+}

@@ -1,0 +1,91 @@
+body{
+  background-color: white;
+}
+
+.rolldown-list{
+  display:flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 5vh;
+  color: white;
+  margin-right: 3vh;
+  padding-top: 3vh; 
+}
+
+#IconFrame{
+  background-color: black;
+  width: 10em;
+  height: 10em;
+}
+
+
+.rolldown-list>li{
+  text-transform: uppercase;
+  margin-bottom: 0.5vh;
+  font-size: 2vh;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 2vh;
+}
+
+.rolldown-list .Odd1 , .Odd2 , .Odd3 , .Odd4{
+  background-color: #444;
+}
+
+.rolldown-list .Even1 , .Even2 , .Even3 , .Even4{
+background-color: #222;
+}
+
+.LeftParent{
+  background: linear-gradient(to left,#2e4e3e,#234eef );
+  height: 55em;
+  width: 40%;
+}
+
+#RightParent{
+
+  background: linear-gradient(to right,#2e4e3e,#234eef );
+  width: 100%;
+  height: 55em;
+  justify-content: center;
+}
+iframe{
+  margin-top: 2.1%;
+  margin-left:2.1%;
+  height: 95%;
+  width: 95%;
+  justify-content: center;
+}
+
+.BigDaddy{
+
+  display: flex;
+  /* box-shadow: 10px 1px 510px red;
+  height: 120vh;
+  width: 120vh;
+  background-color: green; */
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.tryimg{
+  display:none;
+}
+
+.Odd1:hover + .tryimg{
+  cursor:pointer;
+  display:block;
+}
+
+p{
+    font-size: 3vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.generalMuscleInfo{
+    /* width: 100%;
+    height: 100%;
+    background-color: blue; */
+}

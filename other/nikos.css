@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.outer-div {
+    position: relative;
+    background-image: linear-gradient(-45deg, #355F5F, #2e4d4d, #215A69, #1A2456 );
+    background-size: 400% 400%;
+    padding: 3em;   
+    animation: change 35s ease-in-out infinite;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.inner-div{
+    border-radius: 1.56em;
+    margin: 0 auto;
+    width: 41.875rem;
+    min-height: auto;
+}
+
+.glass {
+   background: linear-gradient(135deg, rgba(255, 255, 255, 0.164),rgba(255, 255, 255, 0));
+   backdrop-filter: blur(0.6rem);
+    -webkit-backdrop-filter: blur(0.6rem);
+    border-radius: 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 0.5rem 2em 0 rgba(0, 0, 0, 0.621);
+ }
+
+h1 {
+    padding-top: 2em;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bold;
+    text-align: center;
+    color: white
+}
+
+h2 {
+    font-size: medium;
+    text-align: center;
+    color:rgb(189, 189, 189);
+}
+
+#main-text{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: justify;
+    font-size: large;
+    padding: 1em 1em 1em 1em;
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+    width:auto;
+    word-wrap: break-word;
+    line-height: 1.5;
+    color: white;
+}
+
+#cityCollege-pic {
+    border:1px solid white;
+    border-radius:50%;
+    width: 4.9em;;
+    height: 4.9em;;
+    position: absolute;
+    top: 0.5em;
+    margin: auto;
+    object-fit:cover;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.main-pic{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.media{
+    display: flex;
+}
+
+#left-elem, #right-elem{
+    border:1px solid white;
+    border-radius:50%;
+    width: 2.5em;;
+    height: 2.5em;
+    object-fit:cover;
+    margin-bottom: 0.5em;
+}
+
+#left-link{
+    margin-left: 15em;
+    object-fit: cover;
+}
+
+#right-link{
+    margin-left: 7.5em;
+}

@@ -1,0 +1,39 @@
+.main-box-vegan{
+  display: flex;
+  height:auto;
+  background: linear-gradient(to right, #26434c 50%, #19343e);
+}
+
+.img-vegan{
+  margin: 20vh 2vh;
+  background:linear-gradient(to left, #26434c , #19343e 50%);
+  padding: 3vh;
+  border-radius: 1vh;
+}
+
+.img-vegan img{
+  width: 650px;
+  height: 500px;
+  border-radius: 3vh;
+}
+
+.text-vegan{
+  padding: 20vh;
+  background: linear-gradient(to top, #26434c 50%, #19343e);
+  border-radius: 100%;
+  border-style: outset;
+  border-color: #26434c;
+}
+.text-vegan p{
+  padding: 18vh 9vh;
+  font-size: medium;
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: rgb(200,200,200);
+  background: linear-gradient(to bottom, #26434c, #19343e 50%);
+  border-radius: 3vh;
+  border-style: inherit;
+  border-color: #26434c;
+}

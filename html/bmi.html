@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<script src="../other/bmiCalculator.js"></script>
+    <link rel="stylesheet" href="../other/master.css">
+    <link rel="stylesheet" href="../other/calculate.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="content">
+          <button class="content-button" type="button" name="button">Home</button>
+          <button class="content-button" type="button" name="button">Info</button>
+          <button class="content-button" type="button" name="button">Diets</button>
+          <button class="content-button" type="button" name="button">Workouts</button>
+          <div class="right">
+            <button class="user-button" type="button" name="button">Log in</button>
+            <button class="user-button" type="button" name="button">Sign in</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="bodyCalcucator">
+      <div class="calculateBMI">
+
+        <div class="input-col">
+          <!-- Option for providing height and weight to the user -->
+          <h2>Body Mass Index Calculator (BMI)</h2>
+          <input type="text" class="form_input" id="height" placeholder="Height in cm">
+          <label class="form_label">Height</label>
+
+          <input type="text" class="form_input" id="weight" placeholder="Weight in kg">
+          <label class="form_label">Weight</label>
+          <button id="btn" onclick="calculateBMI()">Calculate</button>
+        </div>
+
+        <div class="result-col">
+          <div id="result"></div>
+        </div>
+      </div>
+      <div class="info">
+        <p>The body mass index (BMI) calculator is a tool that helps determine an individual's body fat based on their weight and height.
+          The BMI is calculated by dividing an individual's weight in kilograms by their height in meters squared (kg/m²).
+          A person with a BMI between 18.5 and 24.9 is considered to be at a healthy weight, while a BMI below 18.5 is considered underweight and a BMI above 25 is considered overweight.
+          However, it's important to note that BMI is not a perfect measure of body fat, as it doesn't take into account factors such as muscle mass or overall body composition.
+          Therefore, it's important to use other methods, such as skinfold thickness measurements or bioelectrical impedance analysis, to determine body fat percentage.</p>
+      </div>
+    </div>
+
+    <div class= "footer">
+      <div class="col-1">
+        <h3>About Us</h3>
+        <a href="#">Blog</a>
+        <a href="#">Terms of Survice</a>
+      </div>
+      <div class="col-2">
+        <h3> Join our Newsletter</h3>
+        <form>
+          <input class="email-input" type="email" placeholder="Your email adress" required>
+          <button class="sub-butt" type="Submit">SUBSCRIBE NOW </button>
+        </form>
+      </div>
+      <div class="col-3">
+        <h3>Contact us</h3>
+        <a href="#">Support</a>
+        <a href="#">Contact</a>
+        <p>3, Leontos Sofou Street,
+          546 26 Thessaloniki, Greece.
+        <br> Thessaloniki, Greece</p>
+      </div>
+      <div class="col-4">
+        <h3>Social Media</h3>
+        <a id="instagram" href="https://www.instagram.com/">Instagram</a>
+        <a id="facebook" href="https://www.facebook.com/">Facebook</a>
+        <a id="LinkedIn" href="https://www.linkedin.com/">LinkedIn</a>
+        <a id="twitter" href="https://twitter.com/">Twitter</a>
+      </div>
+    </div>
+  </body>
+
+</html>
